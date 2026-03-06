@@ -1,9 +1,9 @@
 import type { Post, PaginatedPosts, CommentsResponse } from '@/types';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE;
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY ?? '';
 
-const authHeaders = {
+const authHeaders: HeadersInit = {
   'x-api-key': API_KEY,
 };
 

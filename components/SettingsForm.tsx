@@ -31,7 +31,6 @@ export function SettingsForm() {
   }
 
   const isPending = status === 'pending';
-  const isSuccess = status === 'success';
 
 
   return (

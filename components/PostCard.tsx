@@ -36,7 +36,7 @@ export function PostCard({ post }: { post: Post }) {
             src={post.imageUrl}
             alt={post.caption || `Post by ${post.author}`}
             fill
-            className="object-cover transition-opacity hover:opacity-95"
+            className="object-cover transition-opacity hover:opacity-80 hover:scale-110 transition-transform duration-300"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         </div>
