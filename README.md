@@ -162,6 +162,11 @@ User preferences are managed with Zustand in `store/useUserStore.ts`:
 
 ## Getting Started
 
+### Try the Live Demo
+Visit the deployed application: [https://sitecore-fe-test.vercel.app/](https://sitecore-fe-test.vercel.app/)
+
+### Local Development
+
 1. **Install dependencies**
    ```bash
    npm install
